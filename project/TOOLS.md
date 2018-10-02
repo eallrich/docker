@@ -17,7 +17,7 @@ GitHub pull requests. Leeroy uses
 [GitHub hooks](https://developer.github.com/v3/repos/hooks/) 
 to listen for pull request notifications and starts jobs on your Jenkins 
 server.  Using the Jenkins
-[notification plugin][https://wiki.jenkins-ci.org/display/JENKINS/Notification+Plugin],
+[notification plugin](https://wiki.jenkins-ci.org/display/JENKINS/Notification+Plugin),
 Leeroy updates the pull request using GitHub's 
 [status API](https://developer.github.com/v3/repos/statuses/)
 with pending, success, failure, or error statuses.
@@ -42,7 +42,7 @@ The gordon-bot repository is maintained at
 ### NSQ
 
 We use [NSQ](https://github.com/bitly/nsq) for various aspects of the project
-infrastucture.
+infrastructure.
 
 #### Hooks
 
